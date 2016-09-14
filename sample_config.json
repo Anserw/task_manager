@@ -1,0 +1,55 @@
+{
+  "workpath":{
+    "list":[
+      {
+        "value":"/home/anserw/temp/"
+      }
+    ],
+    "type":"cross"
+  },
+  "interpreter":{
+    "list":[
+      {
+        "value":"python"
+      }
+    ],
+    "type":"cross"
+  },
+  "task":{
+    "list":[
+      {
+        "value":"sample_task_1.py"
+      },
+      {
+        "value":"sample_task_2.py"
+      }
+    ],
+    "type":"cross"
+  },
+  "args":{
+    "list":[
+      {
+        "list":[
+          {
+            "value":"args 1"
+          },
+          {
+            "value":"args 2"
+          }
+        ],
+        "type": "step"
+      },
+      {
+        "list":[
+          {
+            "value":"args a"
+          },
+          {
+            "value":"args b"
+          }
+        ],
+        "type": "step"
+      }
+    ]
+  }
+}
