@@ -1,4 +1,5 @@
 {
+  "name":"test",
   "workpath":{
     "list":[
       {
@@ -18,10 +19,10 @@
   "task":{
     "list":[
       {
-        "value":"sample_task_1.py"
+        "value":"/home/anserw/deephi/task_manager/sample_task_1.py"
       },
       {
-        "value":"sample_task_2.py"
+        "value":"/home/anserw/deephi/task_manager/sample_task_2.py"
       }
     ],
     "type":"cross"
@@ -37,18 +38,18 @@
             "value":"args 2"
           }
         ],
-        "type": "step"
+        "type": "cross"
       },
       {
         "list":[
           {
-            "value":"args a"
+            "value":"args_3"
           },
           {
-            "value":"args b"
+            "value":"args_4"
           }
         ],
-        "type": "step"
+        "type": "cross"
       }
     ]
   }

@@ -62,7 +62,7 @@ def start_engine(task_list, thread_sum):
         dir_name = os.path.join(a_task[1], a_task[0]) + '/'
         cmd = ''
         for i in range(2, len(a_task)):
-            dir_name += os.path.basename(a_task[i]) + '_'
+            dir_name += os.path.basename(a_task[i].replace(' ', '_')) + '_'
             cmd += a_task[i] + ' '
         if not os.path.isdir(dir_name):
             os.makedirs(dir_name)
